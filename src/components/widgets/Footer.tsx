@@ -14,7 +14,7 @@ const Footer = () => {
                             <div className="">
                                 <h2  className="font-fontRopa text-2xl md:text-3xl text-mono md:pl-0 md:mt-0 mt-10">About</h2>
                                 <p className="max-w-md mt-5 text-tri text-balance md:pr-0 pr-4">
-                                    Hi, I’m Shehbaz Niazi, a dedicated Frontend Developer at PIAIC in Pakistan. With a passion for creating engaging and user-friendly web experiences, I specialize in building responsive and dynamic websites. My work focuses on leveraging modern frontend technologies to deliver high-quality, impactful digital solutions. Whether it's crafting intuitive interfaces or optimizing user interactions, I am committed to bringing innovative ideas to life.
+                                    Hi, Im Shehbaz Niazi, a dedicated Frontend Developer at PIAIC in Pakistan. With a passion for creating engaging and user-friendly web experiences, I specialize in building responsive and dynamic websites. My work focuses on leveraging modern frontend technologies to deliver high-quality, impactful digital solutions. Whether its crafting intuitive interfaces or optimizing user interactions, I am committed to bringing innovative ideas to life.
                                 </p>
                                 <ul className="flex mt-10 gap-x-5 mb-5  items-center">
                                     <Link href={"https://www.linkedin.com/in/shehbazniazi/"}>

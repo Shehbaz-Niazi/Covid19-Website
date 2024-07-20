@@ -1,9 +1,8 @@
 import Wrapper from "../layout/Wrapper"
 import { IoMdHome } from "react-icons/io";
 import Button from "../shared/Button";
-import { FaCheckCircle,FaHandsWash  } from "react-icons/fa"
-import { FaHeadSideMask } from "react-icons/fa6";
-import { MdSocialDistance } from "react-icons/md";
+import { FaCheckCircle } from "react-icons/fa"
+
 
 
 const HowToPreventCorona = () => {
@@ -80,7 +79,7 @@ const HowToPreventCorona = () => {
                                     <div className=" mt-10 ">
                                         <h2  className="font-fontRopa text-3xl md:text-4xl text-mono">How To Prevent Coronavirus</h2>
                                         <p  className="md:max-w-xl max-w-xs mt-5" >
-                                            Preventing the spread of coronavirus involves adopting a few key practices to protect yourself and others. First, it's crucial to maintain good hygiene by washing your hands regularly with soap and water for at least 20 seconds. 
+                                            Preventing the spread of coronavirus involves adopting a few key practices to protect yourself and others. First, its crucial to maintain good hygiene by washing your hands regularly with soap and water for at least 20 seconds. 
                                         </p>
                                         <p  className="md:max-w-xl max-w-xs mt-5 ">
                                             Social distancing is another effective measure to prevent the spread of COVID-19. Keeping a safe distance of at least 6 feet from others, particularly in public spaces, minimizes the risk of infection.
@@ -127,14 +126,3 @@ export default HowToPreventCorona
 
 
 
-
-{/* <div className="w-44 h-56  shadow-lg shadow-di border border-di rounded-lg">
-                            <div className="w-44 h-24 bg-di rounded-t-lg flex items-center justify-center">
-                                <IoMdHome className="w-[60px] h-auto text-mono"/>
-                            </div>
-                                <h6 className="text-lg font-Inria_Sans text-mono font-bold pt-2 pl-3">Stay At Home</h6>
-                                <p className="text-tri pl-3 pt-2 leading-5 pr-2">Stay at home to protect yourself form Covid </p>
-                            <div>
-
-                            </div>
-                        </div> */}

@@ -5,7 +5,7 @@ import Button from "@/components/shared/Button"
 
 const Header = () => {
   return (
-      <div>
+      <div className="-z-[100]">
 <Wrapper>
 <div>
                 <div className="bg-di flex flex-col md:flex-row justify-between rounded-br-[200px] overflow-hidden">

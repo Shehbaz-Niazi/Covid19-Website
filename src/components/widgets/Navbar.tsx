@@ -17,8 +17,9 @@ const Navbar = () => {
     };
   
     return (
+      <div className="sticky top-0 z-10">
         <Wrapper>
-      <nav className="bg-di shadow-md ">
+      <nav className="bg-di shadow-md  ">
         <div className="max-w-full mx-auto px-2 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between h-16">
   {/* Left side of the navbar */}
@@ -76,26 +77,37 @@ const Navbar = () => {
   
   {/* Mobile menu */}
         <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
-          <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link href="/">
-              <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-sm font-medium">
-                Home
-              </li>
-            </Link>
-            <Link href="/about">
-              <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-sm font-medium">
-                About
-              </li>
-            </Link>
-            <Link href="/contact">
-              <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-sm font-medium">
-                Contact
-              </li>
-            </Link>
+          <div className="px-2 pt-2 pb-3 space-y-1 -">
+          <Link href="/" >
+                  <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-base font-medium">
+                    Home
+                  </li>
+                </Link>
+                <Link href="/" >
+                  <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-base font-medium">
+                    Reports
+                  </li>
+                </Link>
+                <Link href="/" >
+                  <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-base font-medium">
+                    Symptoms
+                  </li>
+                </Link>
+                <Link href="/about">
+                  <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-base font-medium">
+                    About
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="text-tri list-none hover:bg-mono hover:text-white hover:scale-105 duration-300 px-3 py-2 rounded-md text-base font-medium">
+                    Contact
+                  </li>
+                </Link>
           </div>
         </div>
       </nav>
       </Wrapper>
+      </div>
     );
   };
   
